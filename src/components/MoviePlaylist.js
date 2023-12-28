@@ -6,7 +6,7 @@ function MoviePlaylist() {
   const dispatch = useDispatch()
 
   const moviePlaylist = useSelector((state) => (
-    state.movie
+    state.movies
   ))
 
   const handleMovieAdd = (movie) => {
